@@ -1,0 +1,14 @@
+PRE REQUSITES: A MAVEN REPO JAVA VERSION 1.8
+wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz tar -zxvf apache-maven-3.8.4-bin.tar.gz cd apache-maven-3.8.4-bin.tar.gz yum install maven - y mvn -version java -version mvn archetype: generate 'groupid': 'artifactid': 'version' 1.0 snapshot: package" :
+now give ls you will see the artifact id that you have given STANDARD DIRECTORY LAYOUT Main: Source code, libraries, addtional information and propertie files Test: Unit testing files
+Once you start compile, maven will go to the src/main folder to compile
+How maven identifies which plugin or project to select when instruct a goal GAV: Group ID
+: Company name/Group/Business org Artifact ID
+Product or delivery (Final Output) Version IDE : Major, Minor, Patch/Maintainance PUBG
+: 10.3.10
+MAVEN LIFECYCLE
+# Generating a resource : # Compilation # Test # Package # Integrity # Install # Deploy # Clean
+Source code All java files --- &gt;. class files Unit test Delivery or Artifact or Executable
+BATCH2 --&gt; Src &amp; Pom.xml --&gt; src: src/main/java/DEVOPS/App.java --&gt; App.java is the code that was written by developers
+mon complie
+Now you can see the target folder after compiling app.java will be changed to app.class file
