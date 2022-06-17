@@ -22,3 +22,37 @@ clear
 java -version
 cd
  java -version
+git log
+git remote add origin "https://github.com/Deekshita250/git-github.git"
+git branch
+git status
+git branch
+git push -u orgin master
+git push origin master
+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
+git push origin master
+ll
+git branch
+git branch branch1
+git branch
+checkout branch1
+Checkout branch1
+Checkout branch branch1
+git checkout branch1
+touch file3
+add file3
+git add file3
+git status
+git commit -m "file 3"
+git status
+git push origin branch1
+yum install java -1.8.0 -open jdk -y
+yum install java -1.8.0 -y
+yum install java-8openjdk -y
+yum install java
+java -version
+ls
+ll
+clear
+wget https://mvnrepository.com/artifact/org.apache.maven/maven-model/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
+wget https://mvnrepository.com/artifact/org.apache.maven/maven-model/3.8.5/
